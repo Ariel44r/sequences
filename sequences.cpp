@@ -1,3 +1,4 @@
+//the  sequences library made by ARIEL DIAZ
 //i'm check it  git version control :v :)
 #include<iostream>
 #include<math.h>
