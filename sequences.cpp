@@ -1,4 +1,3 @@
-//made by ARIEL RAMIREZ
 #include<iostream>
 #include<math.h>
 #include"COMPLEX.h"
