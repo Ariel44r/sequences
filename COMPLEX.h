@@ -86,26 +86,31 @@ class complex
 
 };
 
+//Operator_Overload
 complex& operator +(const complex &p1,const complex &p2)
 {
 	return *(new complex(p1.Re + p2.Re, p1.Im + p2.Im) ); 
 }
 
+//Operator_Overload
 complex& operator -(const complex &p1,const complex &p2)
 {
 	return *(new complex(p1.Re - p2.Re, p1.Im - p2.Im) ); 
 }
 
+//Operator_Overload
 complex& operator *(const complex &p1,const complex &p2)
 {
 	return *(new complex(p1.Re*p2.Re - p1.Im*p2.Im,p1.Re*p2.Im + p2.Re*p1.Im) ); 
 }
 
+//Operator_Overload
 complex& operator *(const double &p1,const complex &p2)
 {
 	return *(new complex(p1*p2.Re,p1*p2.Im) ); 
 }
 
+//Operator_Overload
 complex& operator /(const complex &p1,const complex &p2)
 {
 	return *(new complex(((p1.Re*p2.Re+p1.Im*p2.Im)/(pow(p2.Re,2)+pow(p2.Im,2))),((p1.Im*p2.Re-p1.Re*p2.Im)/(pow(p2.Re,2)+pow(p2.Im,2)))) ); 
