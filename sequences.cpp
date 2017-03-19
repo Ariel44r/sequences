@@ -1,6 +1,3 @@
-//New branch
-//the  sequences library made by ARIEL DIAZ
-
 #include<iostream>
 #include<math.h>
 #include"COMPLEX.h"
