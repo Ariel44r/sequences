@@ -1,6 +1,6 @@
 #include<iostream>
 #include<math.h>
-#include"COMPLEX.h"
+#include"COMPLEXLIB.h"
 
 using namespace std;
 
