@@ -32,15 +32,10 @@ class complex
 					return (180*atan(Im/Re)/3.141592654);
 				}
 				else
-					if ((Re<0)&&(Im>=0))
+					if (((Re<0)&&(Im>=0))||((Re<0)&&(Im<0)))
 					{
 						return (180 + 180*atan(Im/Re)/3.141592654);
 					}
-					else
-						if((Re<0)&&(Im<0))
-						{
-							return (180 + 180*atan(Im/Re)/3.141592654);
-						}
 		}
 
 		double Real (complex a)
