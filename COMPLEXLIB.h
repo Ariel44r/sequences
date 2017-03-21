@@ -1,3 +1,4 @@
+//mae by ARIEL
 #include<iostream>
 #include<math.h>
 
