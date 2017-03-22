@@ -1,4 +1,4 @@
-//mae by ARIEL
+//MADE BY ARIEL
 #include<iostream>
 #include<math.h>
 
