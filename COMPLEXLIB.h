@@ -1,3 +1,4 @@
+//MADE BY ARIEL
 #include<iostream>
 #include<math.h>
 
