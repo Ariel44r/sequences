@@ -50,7 +50,7 @@ class functions
 	~functions () {}
 };
 
-//Operators_Overload
+//Operator_Overload_+_(Sum)
 functions& operator +(const functions &p1,const functions &p2)
 {
 	int NN = p1.N;
@@ -63,6 +63,7 @@ functions& operator +(const functions &p1,const functions &p2)
 	return *(comm);
 }
 
+//Operator_Overload_-_(Substract)
 functions& operator -(const functions &p1,const functions &p2)
 {
 	int NN = p1.N;
@@ -75,6 +76,7 @@ functions& operator -(const functions &p1,const functions &p2)
 	return *(comm);
 }
 
+//Operator_Overload_*_(Product)
 functions& operator *(const functions &p1,const functions &p2)
 {
 	int NN = p1.N;
@@ -87,6 +89,7 @@ functions& operator *(const functions &p1,const functions &p2)
 	return *(comm);
 }
 
+//Operator_Overload_/_(Division)
 functions& operator /(const functions &p1,const functions &p2)
 {
 	int NN = p1.N;
@@ -99,6 +102,7 @@ functions& operator /(const functions &p1,const functions &p2)
 	return *(comm);
 }
 
+//Operator_Overload_^_(Convolution)
 functions& operator ^(const functions &p1,const functions &p2)
 {
 	int NN = p1.N + p2.N;
@@ -117,6 +121,7 @@ functions& operator ^(const functions &p1,const functions &p2)
 	return *(comm);
 }
 
+//Operator_Overload_>_(Discrete_Fourier_Transform)
 functions& operator >(const functions &p1,const functions &p2)
 {
 	int NN = p1.N;
